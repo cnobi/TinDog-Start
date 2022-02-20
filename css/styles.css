@@ -1,0 +1,25 @@
+/* CSS for Tindog WDBC Tutorial */
+
+#title {
+  background-color: #ff4c68;
+}
+
+/* .navbar-brand {
+  margin-left: 20px;
+}
+
+.navbar-nav,
+.navbar-toggler {
+  margin-right: 20px;
+} */
+
+
+.headintext {
+    font-family: 'Montserrat-black', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
