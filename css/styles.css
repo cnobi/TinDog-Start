@@ -1,0 +1,14 @@
+/* CSS for Tindog WDBC Tutorial */
+
+#title {
+  background-color: #ff4c68;
+}
+
+.navbar-brand {
+  margin-left: 20px;
+}
+
+.navbar-nav,
+.navbar-toggler {
+  margin-right: 20px;
+}
