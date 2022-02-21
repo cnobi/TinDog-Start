@@ -16,6 +16,7 @@
 
 .headintext {
     font-family: 'Montserrat-black', sans-serif;
+    font-weight: 900;
     font-size: 3rem;
     line-height: 1.5;
 }
@@ -24,7 +25,7 @@
     padding: 3% 15%;
 }
 
-.btn-dark {
+/* /* .btn-dark {
   font-family: Ubuntu;
 
 }
@@ -32,4 +33,13 @@
 .btn-outline-light {
   font-family: Ubuntu;
 
+} */
+
+.fa-apple, .fa-google-play {
+  padding-right: 10px;
+}
+
+#iphone {
+  transform: rotate(25deg);
+  z-index: 100;
 }
