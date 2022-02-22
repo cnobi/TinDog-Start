@@ -1,7 +1,12 @@
 /* CSS for Tindog WDBC Tutorial */
 
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
 #title {
   background-color: #ff4c68;
+  color: #fff;
 }
 
 /* .navbar-brand {
