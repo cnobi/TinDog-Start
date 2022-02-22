@@ -71,3 +71,20 @@ body {
   transform: rotate(25deg);
   z-index: 100;
 }
+
+.feat {
+  text-align: center;
+  padding: 100px;
+}
+
+.fa-solid {
+  font-size: 5rem;
+  padding: 20px;
+  color: #ef8172;
+}
+
+.feature-description {
+  font-weight: bold;
+  font-size: 1.5rem;
+
+}
