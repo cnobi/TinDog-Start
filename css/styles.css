@@ -9,8 +9,15 @@ body {
   color: #fff;
 }
 
+h2 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
 .headintext {
-  font-family: 'Montserrat-black', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 900;
   font-size: 3.5rem;
   line-height: 1.5;
@@ -69,22 +76,67 @@ body {
 .title-img {
   width: 60%;
   transform: rotate(25deg);
-  z-index: 100;
 }
 
-.feat {
+/* Features Section */
+
+#features {
+  padding: 7% 15%;
+}
+
+.feature-box {
   text-align: center;
-  padding: 100px;
+  /* padding: 4%; */
 }
 
-.fa-solid {
-  font-size: 5rem;
-  padding: 20px;
-  color: #ef8172;
+
+
+.feature-title {
+  font-weight: bold;
+  font-size: 1.5rem;
 }
 
 .feature-description {
-  font-weight: bold;
-  font-size: 1.5rem;
+  color: #8f8f8f;
+}
 
+/* Icons */
+
+.icon {
+  font-size: 5rem;
+  color: #ef8172;
+  margin-bottom: 1.2rem;
+
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials Section */
+
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Press Section */
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
 }
