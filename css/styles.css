@@ -10,11 +10,13 @@ body {
 }
 
 .headintext {
-  font-family: 'Montserrat-black', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 900;
   font-size: 3.5rem;
   line-height: 1.5;
 }
+
+
 
 .container-fluid {
   padding: 3% 15%;
@@ -72,19 +74,42 @@ body {
   z-index: 100;
 }
 
-.feat {
-  text-align: center;
-  padding: 100px;
+/* Feature Section */
+
+h3 {
+
 }
 
-.fa-solid {
+.features {
+  padding: 7% 15%; 
+}
+
+.feat {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
   font-size: 5rem;
-  padding: 20px;
+  margin-bottom: 1.2rem;
   color: #ef8172;
 }
 
-.feature-description {
+.icon:hover {
+  color: #ff4c68;
+}
+
+.feature-title {
   font-weight: bold;
   font-size: 1.5rem;
 
 }
+
+.feature-description {
+  color: #8f8f8f;
+  
+}
+
+
+
+
