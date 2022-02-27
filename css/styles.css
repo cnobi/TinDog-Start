@@ -75,15 +75,24 @@ h2 {
 
 /* Title Image */
 
+#title {
+  padding-bottom: 9%;
+}
+
 .title-img {
-  width: 60%;
+  width: 20%;
   transform: rotate(25deg);
+  position: absolute;
+  right: 24%;
+  z-index: 1;
 }
 
 /* Features Section */
 
 #features {
-  padding: 7% 15%;
+  background-color: #fff;
+  padding: 12% 15% 7%;
+  position: relative;
 }
 
 .feature-box {
@@ -154,3 +163,9 @@ h2 {
 #pricing {
   padding: 7% 15%;
 }
+
+.pricing-column {
+  margin-top: 2rem;
+}
+
+/* Media Queries */
