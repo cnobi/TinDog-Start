@@ -26,7 +26,7 @@ h2 {
 
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 8%;
 }
 
 /* /* .btn-dark {
@@ -73,17 +73,24 @@ h2 {
 
 }
 
-/* Title Image */
+/* Title */
+
+
 
 .title-img {
-  width: 60%;
+  width: 20%;
   transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+  
 }
 
 /* Features Section */
 
 #features {
+  background-color: #fff;
   padding: 7% 15%;
+  position: relative;
 }
 
 .feature-box {
@@ -153,4 +160,9 @@ h2 {
 
 #pricing {
   padding: 7% 15%;
+  text-align: center;
+}
+
+.price-column  {
+  margin-top: 4%;
 }
