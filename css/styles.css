@@ -1,5 +1,8 @@
 /* CSS for Tindog WDBC Tutorial */
 
+
+/* HTMLs */
+
 body {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
@@ -41,10 +44,6 @@ section-heading {
   padding-right: 10px;
 }
 
-/* Title Section */
-
-
-
 
 /* Navigation Bar */
 
@@ -77,7 +76,6 @@ section-heading {
 
 /* Title Section */
 
-
 .heading-text {
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
@@ -109,7 +107,6 @@ section-heading {
   text-align: center;
   /* padding: 4%; */
 }
-
 
 .feature-title {
   font-weight: bold;
@@ -148,7 +145,6 @@ section-heading {
 .testimonial-text {
   font-size: 3rem;
   line-height: 1.5;
-
 }
 
 /* Press Section */
@@ -164,8 +160,6 @@ section-heading {
 }
 
 /* Pricing Section */
-
-
 
 .price-text {
   font-size: 3rem;
@@ -201,10 +195,6 @@ section-heading {
 .social-media-icon:hover {
   color: #ff4c68;
 }
-
-
-
-
 
 /* Media Queries */
 
