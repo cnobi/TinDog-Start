@@ -21,6 +21,13 @@ h6 {
   padding: 7% 15%;
 }
 
+/* Sections */
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
 
 /* Headings */
 
@@ -36,22 +43,7 @@ section-heading {
 
 /* Title Section */
 
-#title {
-  background-color: #ff4c68;
-  text-align: left;
-}
 
-.heading-text {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 900;
-  font-size: 3.5rem;
-  line-height: 1.5;
-  color: #fff;
-}
-
-#title .container-fluid {
-  padding: 3% 15% 7%;
-}
 
 
 /* Navigation Bar */
@@ -83,12 +75,19 @@ section-heading {
 
 }
 
-/* Title */
+/* Title Section */
 
 
-#title {
-  padding-bottom: 9%;
-  position: relative;
+.heading-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 16%;
+  text-align: left;
 }
 
 .title-img {
@@ -138,7 +137,6 @@ section-heading {
 
 #testimonials {
   background-color: #ef8172;
-  color: #fff;
 }
 
 .testimonial-image {
@@ -152,9 +150,6 @@ section-heading {
   line-height: 1.5;
 
 }
-
-/* Carousel */
-
 
 /* Press Section */
 
@@ -183,12 +178,6 @@ section-heading {
 
 .pricing-column {
   margin-top: 2rem;
-}
-
-/* Call to Action */
-
-#cta {
-  background-color: #ff4c68;
 }
 
 /* Footer Section */
